@@ -1,0 +1,15 @@
+{
+  "name": "saan-recomp",
+  "version": "1.0.0",
+  "description": "Saan's 12-Week Body Recomp Tracker",
+  "scripts": {
+    "dev": "node api/server.js",
+    "start": "node api/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.4.3",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0"
+  }
+}
